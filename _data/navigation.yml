@@ -10,3 +10,55 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+docs:
+  - title: 언어
+    children:
+      - title: "C언어"
+        # url: /docs/quick-start-guide/
+      - title: "C++"
+      - title: "자바(Java)"
+      - title: "파이썬(Python)"
+      - title: "자바스크립트(JavaScript)"
+      - title: "러스트(Rust)"
+
+  - title: 웹 프론트엔드
+    children:
+      - title: "HTML"
+      - title: "CSS"
+      - title: "JavaScript"
+      - title: "Vue.js"
+      - title: "Vuetify.js"
+      - title: "Nuxt.js"
+      - title: "React.js"
+
+  - title: 웹 백엔드
+    children:
+      - title: "Node.js"
+      - title: "Express.js"
+      - title: "Koa.js"
+
+  - title: 리눅스(Linux)
+
+  - title: 컴퓨터 비전
+    children:
+      - title: "OpenCV"
+
+  - title: 데스크탑 어플리케이션
+    children:
+      - title: "일렉트론(Electron)"
+
+  - title: 모바일 앱
+    children:
+      - title: "안드로이드"
+      - title: "플러터(Flutter)"
+
+  - title: 데이터베이스
+    children:
+      - title: "몽고DB(MongoDB)"
+      - title: "몽구스(Mongoose)"
+
+  - title: 깃허브(Github)
+
+  - title: 유니티(Unity)
+
+  - title: etc

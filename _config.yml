@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "SW Developer"
   avatar           : "/assets/images/avatar.jpg" # 프로필 사진
-  bio              : "개발은 늘 즐겁게!\n여러 가지 만들어보자!"
+  bio              : "개발은 늘 즐겁게!<br>여러 가지 만들어보자!"
   location         : "Republic of Korea"
   email            :
   links:
@@ -129,7 +129,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/hummingengineer"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
