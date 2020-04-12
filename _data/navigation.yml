@@ -10,11 +10,10 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-docs:
+sidebar_categories:
   - title: 언어
     children:
       - title: "C언어"
-        # url: /docs/quick-start-guide/
       - title: "C++"
       - title: "자바(Java)"
       - title: "파이썬(Python)"
