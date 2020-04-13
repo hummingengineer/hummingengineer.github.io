@@ -1,7 +1,7 @@
 ---
 title: Posts by Rust category
 layout: category
-permalink: /categories/Rust/
+permalink: /categories/rust/
 taxonomy: Rust
 ---
 
