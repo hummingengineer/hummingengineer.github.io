@@ -279,6 +279,9 @@ defaults:
       comments: false
       share: false
       related: true
+      toc: true
+      toc_sticky: true
+      toc_label: "목차"
       sidebar:
         nav: "sidebar_categories"
 
@@ -289,5 +292,8 @@ defaults:
     values:
       layout: single
       author_profile: true
+      toc: true
+      toc_sticky: true
+      toc_label: "목차"
       sidebar:
         nav: "sidebar_categories"
