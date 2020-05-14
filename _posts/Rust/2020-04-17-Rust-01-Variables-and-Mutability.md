@@ -5,7 +5,7 @@ categories:
   - Rust
 tags:
   - rust
-  - variables
+  - variable
   - mutability
 ---
 {{ page.excerpt }}
