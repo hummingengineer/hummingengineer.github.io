@@ -15,6 +15,7 @@ tags:
 - 러스트에서 기본 변수는 `불변`(불변성) 입니다.
 - 변수가 불변성인 경우, 일단 값이 이름에 bound되면 해당 값을 변경할 수 없습니다.
 - 변수는 기본적으로 불변성이지만 우리는 변수명의 접두어로 `mut`을 추가하는 것을 통해 `가변성 변수`를 선언할 수 있습니다.
+
 ```rust
 fn main() {
   let mut x = 5;
@@ -106,4 +107,5 @@ a = 5;  // Compile Error
 
 ## 참고 자료
 <https://rinthel.github.io/rust-lang-book-ko/ch03-01-variables-and-mutability.html>
+
 <https://pubul.tistory.com/87>

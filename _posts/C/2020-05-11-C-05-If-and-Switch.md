@@ -51,6 +51,7 @@ switch (조건식) {
   case label1: 실행구문1; break;
   case label2: 실행구문2; break;
   default: 실행구문3;
+}
 ```
 - 여러 조건에서 해당하는 조건의 문장을 실행
 - If-else if-else 문과 유사한 기능 그렇지만 실행이 빠르고 가독성이 좋음
