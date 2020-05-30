@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "ko-KR" # 타깃 국가 설정
-title                    : "무엇이든 만드는 것이 즐거운 개발자" # 블로그 좌측상단의 제목
+title                    : "Note for Developing" # 블로그 좌측상단의 제목
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "개발 노트" # "블로그 이름"
