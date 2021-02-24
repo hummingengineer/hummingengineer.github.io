@@ -85,14 +85,7 @@ body {
 .page__content {
   h2 {
     padding-bottom: 0.5em;
-    border-left: 4px ridge $border-color;
-    padding: 10px;
-  }
-
-  h3 {
-    padding-bottom: 0.5em;
-    border-left: 1px dotted $border-color;
-    padding: 8px;
+    border-bottom: 1px solid $border-color;
   }
 
 	h1, h2, h3, h4, h5, h6 {
@@ -304,6 +297,12 @@ body {
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;
+}
+
+.page__meta-sep::before {
+  content: "\2022";
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 /*

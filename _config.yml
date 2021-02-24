@@ -12,18 +12,18 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko-KR" # 타깃 국가 설정
-title                    : "Note for Developing" # 블로그 좌측상단의 제목
+locale                   : "en-US"
+title                    : "Site Title"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "개발 노트" # "블로그 이름"
-description              : "개발 지식을 정리해놓은 블로그입니다" # "블로그 설명"
-url                      : "https://hummingengineer.github.io" # 블로그 주소
+name                     : "Your Name"
+description              : "An amazing website."
+url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "hummingengineer/hummingengineer.github.io" # 블로그 github 리포지토리
+repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -51,8 +51,9 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : true # true, false (default)
-search_full_content      : true # true, false (default) # 제목이 아닌 내용까지도 검색할 것인지에 대한 설정
+  hide                   : # true, false (default)
+search                   : # true, false (default)
+search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -85,7 +86,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id          :
     anonymize_ip         : # true, false (default)
@@ -93,15 +94,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "SW Developer"
-  avatar           : "/assets/images/avatar.jpg" # 프로필 사진
-  bio              : "개발은 늘 즐겁게!<br>여러 가지 만들어보자!"
-  location         : "Republic of Korea"
+  name             : "Your Name"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "I am an **amazing** person."
+  location         : "Somewhere"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -113,7 +114,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/hummingengineer"
+      # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -129,7 +130,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/hummingengineer"
+      # url:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -207,9 +208,9 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show # 첫 페이지에보여줄 최근 게시물 수를 지정. paginate는 첫페이지에서 보여주는 recent posts의 개수이다. 이 개수를 넘어서는 오래된 게시물들은 다름 페이지 번호로 넘어간다.
+paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -275,25 +276,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: false
-      comments: false
-      share: false
+      read_time: true
+      comments: # true
+      share: true
       related: true
-      toc: true
-      toc_sticky: true
-      toc_label: "목차"
-      sidebar:
-        nav: "sidebar_categories"
-
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-      toc: true
-      toc_sticky: true
-      toc_label: "목차"
-      sidebar:
-        nav: "sidebar_categories"
